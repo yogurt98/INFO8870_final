@@ -24,7 +24,7 @@
 
 ## **Project Structure**
 
-````plaintext
+```plaintext
 /terraform_project
 ├── main.tf           # Main Terraform configuration file
 ├── variables.tf      # Variable definitions
@@ -33,14 +33,41 @@
 ├── README.md         # Project documentation
 
 
-````
+```
+
 ---
 
 ## How to Run
 
 ### Step 1: Clone the Repository
+
 Clone this repository to your local machine:
+
 ```bash
-git clone <repository-url>
-cd terraform_project
+git clone https://github.com/yogurt98/INFO8870_final
+cd INFO8870_final
+```
+
+### Step 2: Initialize Terraform
+
+Initialize the project and configure the backend:
+
+```bash
+terraform init
+```
+
+### Step 3: Review the Plan
+
+Preview the resources that will be created:
+
+```bash
+terraform plan
+```
+
+### Step 4: Apply the Configuration
+
+Deploy the infrastructure:
+
+```bash
+terraform apply
 ```
